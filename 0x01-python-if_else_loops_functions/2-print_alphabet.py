@@ -1,4 +1,2 @@
-import string
-
-for letter in string.ascii_lowercase:
-    print(f"{letter}", end='')
+for i in range(97, 123):
+    print("{}".format(chr(i)), end="")
